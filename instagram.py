@@ -1,5 +1,5 @@
-# Date: 12/29/2018
-# Author: Mohamed
+# Date: 13/3/2024
+# Author: aaradhya_0096 
 # Description: Instagram bruter
 
 # from lib.proxy import Proxy
@@ -19,11 +19,11 @@ from argparse import ArgumentParser, ArgumentTypeError
 
 
 class Engine(object):
-    def __init__(self, username, threads, passlist_path, is_color):
+    def __init__(self, username, threads, passlist_path, is_color):aaradhya_0096 
         self.resume = False
         self.is_alive = True
         self.threads = threads
-        self.username = username
+        self.username = username aaradhya_0096 
         self.passlist_path = passlist_path
         self.display = Display(is_color=is_color)
         self.bruter = Bruter(username, threads, passlist_path)
@@ -128,8 +128,8 @@ def valid_float(n):
 
 def args():
     args = ArgumentParser()
-    args.add_argument("-u", "--username", help="email or username")
-    args.add_argument("-p", "--passlist", help="password list")
+    args.add_argument("-u", "--username", help="email or username")aaradhya_0096 
+    args.add_argument("-p", "--passlist", help="password list")noo password 
     args.add_argument("-px", "--proxylist", help="proxy list")
     args.add_argument(
         "--prune",
@@ -274,7 +274,9 @@ def main():
                 print("No proxies in the database and no proxy list provided")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":aaradhya_0096 
+aaradhya_0096 
+instagram password 
 
     if int(python_version()[0]) < 3:
         print("[!] Please use Python 3")
